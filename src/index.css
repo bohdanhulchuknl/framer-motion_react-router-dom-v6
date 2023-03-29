@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bebas";
+  src: url("./fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+
+@layer base {
+  :root {
+    --text-primary: 182 182 182;
+    --text-secondary: 236 236 236;
+    --main-text-size: 16px;
+    --bg-primary: 35 35 35;
+    --bg-secondary: 20 20 24;
+    --transition-speed: 600ms;
+  }
+}
+
